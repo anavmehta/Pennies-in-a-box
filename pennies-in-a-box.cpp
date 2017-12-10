@@ -1,3 +1,10 @@
+/***************************************************************************
+ *                                                                         *
+ *   Copyright (C) 2017 by Anav Mehta                                      *
+ *                                                                         *
+ *   http://3dwaffles.blogspot.com                                         *
+ *                                                                         *
+ ***************************************************************************/
 #include <iostream>
 using namespace std;
 #include <stdlib.h>
