@@ -11,7 +11,7 @@ int optimalStrategyOfGame2(int* arr, int start, int finish, int n)
 
     // Fill table using above recursive formula. Note that the table
     // is filled in diagonal fashion ,
-    // from diagonal elements to table[0][n-1] which is the result.
+    // from diagonal elements to table[start][finish-1] which is the result.
     for (gap = start; gap < finish; ++gap)
     {
         for (i = start, j = gap; j < finish; ++i, ++j)
@@ -36,7 +36,7 @@ int optimalStrategyOfGame(int* arr, int n)
     int table[n][n], gap, i, j, x, y, z;
 
     // Fill table using above recursive formula. Note that the table
-    // is filled in diagonal fashion (similar to http://goo.gl/PQqoS),
+    // is filled in diagonal fashion ,
     // from diagonal elements to table[0][n-1] which is the result.
     for (gap = 0; gap < n; ++gap)
     {
